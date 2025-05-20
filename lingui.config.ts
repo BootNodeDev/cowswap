@@ -45,7 +45,6 @@ const linguiConfig = {
     // 'vi-VN',
     // 'zh-CN',
     // 'zh-TW',
-    'pseudo',
   ],
   orderBy: 'messageId',
   runtimeConfigModule: ['@lingui/core', 'i18n'],
