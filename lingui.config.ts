@@ -36,7 +36,7 @@ const linguiConfig = {
     // 'pt-BR',
     // 'pt-PT',
     // 'ro-RO',
-    'ru-RU',
+    // 'ru-RU',
     // 'sr-SP',
     // 'sv-SE',
     // 'sw-TZ',
