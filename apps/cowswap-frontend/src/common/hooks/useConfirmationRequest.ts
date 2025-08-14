@@ -4,7 +4,8 @@ import { useCallback } from 'react'
 
 import { Command } from '@cowprotocol/types'
 
-import { t } from '@lingui/macro'
+import { msg } from "@lingui/core/macro";
+import { useLingui } from "@lingui/react";
 
 import { useCloseModal, useOpenModal } from 'legacy/state/application/hooks'
 import { ApplicationModal } from 'legacy/state/application/reducer'
@@ -40,7 +41,7 @@ const DEFAULT_CONFIRMATION_MODAL_CONTEXT: ConfirmationModalContext = {
   onEnable: () => {},
   title: 'Confirm Action',
   callToAction: 'Confirm',
-  confirmWord: t`confirm`,
+  confirmWord: 'confirm',
   action: 'confirm',
   skipInput: false,
   triggerConfirmation: async () => {},
@@ -68,6 +69,7 @@ export function useConfirmationRequest({
   const closeModal = useCloseModal(ApplicationModal.CONFIRMATION)
   const setContext = useSetAtom(updateConfirmationModalContextAtom)
   const resetContext = useResetAtom(confirmationModalContextAtom)
+  const { i18n } = useLingui();
 
   return useCallback(
     (params: TriggerConfirmationParams): Promise<boolean> => {
@@ -92,12 +94,13 @@ export function useConfirmationRequest({
 
         setContext({
           ...params,
+          confirmWord: i18n._(msg`confirm`),
           onDismiss,
           onEnable,
         })
         openModal()
       })
     },
-    [setContext, openModal, closeModal, onDismissParam, resetContext, onEnableParam]
+    [closeModal, i18n, onDismissParam, onEnableParam, openModal, resetContext, setContext]
   )
 }
