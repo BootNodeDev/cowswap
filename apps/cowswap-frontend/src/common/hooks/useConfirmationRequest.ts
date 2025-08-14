@@ -4,13 +4,10 @@ import { useCallback } from 'react'
 
 import { Command } from '@cowprotocol/types'
 
-import { msg } from "@lingui/core/macro";
-import { useLingui } from "@lingui/react";
-
 import { useCloseModal, useOpenModal } from 'legacy/state/application/hooks'
 import { ApplicationModal } from 'legacy/state/application/reducer'
 
-import { ConfirmationModalProps } from '../pure/ConfirmationModal/ConfirmationModal'
+import { ConfirmationModalProps } from '../pure/ConfirmationModal'
 
 type TriggerConfirmationParams = Pick<
   ConfirmationModalProps,
@@ -36,7 +33,7 @@ interface ConfirmationModalContext {
   }: TriggerConfirmationParams) => Promise<void>
 }
 
-const DEFAULT_CONFIRMATION_MODAL_CONTEXT: ConfirmationModalContext = {
+export const DEFAULT_CONFIRMATION_MODAL_CONTEXT: ConfirmationModalContext = {
   onDismiss: () => {},
   onEnable: () => {},
   title: 'Confirm Action',
@@ -48,6 +45,7 @@ const DEFAULT_CONFIRMATION_MODAL_CONTEXT: ConfirmationModalContext = {
 }
 
 export const confirmationModalContextAtom = atomWithReset<ConfirmationModalContext>(DEFAULT_CONFIRMATION_MODAL_CONTEXT)
+
 export const updateConfirmationModalContextAtom = atom(
   null,
   (get, set, nextState: Partial<ConfirmationModalContext>) => {
@@ -69,7 +67,6 @@ export function useConfirmationRequest({
   const closeModal = useCloseModal(ApplicationModal.CONFIRMATION)
   const setContext = useSetAtom(updateConfirmationModalContextAtom)
   const resetContext = useResetAtom(confirmationModalContextAtom)
-  const { i18n } = useLingui();
 
   return useCallback(
     (params: TriggerConfirmationParams): Promise<boolean> => {
@@ -94,13 +91,12 @@ export function useConfirmationRequest({
 
         setContext({
           ...params,
-          confirmWord: i18n._(msg`confirm`),
           onDismiss,
           onEnable,
         })
         openModal()
       })
     },
-    [closeModal, i18n, onDismissParam, onEnableParam, openModal, resetContext, setContext]
+    [closeModal, onDismissParam, onEnableParam, openModal, resetContext, setContext]
   )
 }
