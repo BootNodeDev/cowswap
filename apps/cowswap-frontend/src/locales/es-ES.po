@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-25 19:30\n"
+"PO-Revision-Date: 2025-08-25 19:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -70,7 +70,7 @@ msgstr "Para anular esto, introduce la cantidad de tu deslizante deseada.<0/><1/
 
 #: apps/cowswap-frontend/src/modules/account/pure/OrderFillabilityWarning/index.tsx
 msgid "Order cannot be filled due to insufficient allowance on the current account."
-msgstr ""
+msgstr "El pedido no puede ser rellenado debido a una asignación insuficiente en la cuenta corriente."
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/helpers.ts
 msgid "Did you know? {benefit}\n\n"
@@ -115,7 +115,7 @@ msgstr "Orden {value} completada"
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApproveConfirmation/index.tsx
 msgid "You must give the CoW Protocol smart contracts permission to use your {tokenSymbol}. If you approve the default amount, you will only have to do this once per token."
-msgstr ""
+msgstr "Debes dar permiso a los contratos inteligentes del Protocolo CoW para usar tu {tokenSymbol}. Si aprueba la cantidad por defecto, sólo tendrá que hacer esto una vez por token."
 
 #: apps/cowswap-frontend/src/modules/ethFlow/pure/EthFlowStepper/steps/Step3.tsx
 msgid "Receiving {nativeTokenSymbol} Refund..."
@@ -272,7 +272,7 @@ msgstr "Tokens de listas inactivas. Importe fichas específicas debajo o haga cl
 
 #: apps/cowswap-frontend/src/modules/account/pure/OrderFillabilityWarning/index.tsx
 msgid "Order cannot be filled due to insufficient balance on the current account.<0/>Please, top up {inputAmountCurrencySymbol} balance or cancel the order."
-msgstr ""
+msgstr "El pedido no se puede completar debido a un saldo insuficiente en la cuenta corriente.<0/>Por favor, recargue el saldo {inputAmountCurrencySymbol} o cancele el pedido."
 
 #: apps/cowswap-frontend/src/modules/wallet/pure/WalletModal/index.tsx
 msgid "By connecting a wallet, you acknowledge that you have read, understood and agree to the interface’s <0>Terms & Conditions</0>."
@@ -2001,7 +2001,7 @@ msgstr "¡APR de reserva libre de gas!"
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApproveConfirmation/AdvancedApprove.tsx
 msgid "In case you want to give allowance only for the trade amount, use the advanced mode. You can also change the amount manually."
-msgstr ""
+msgstr "En caso de que quiera dar permiso sólo para la cantidad de la operación, utilice el modo avanzado. También puede cambiar la cantidad manualmente."
 
 #: apps/cowswap-frontend/src/modules/twap/pure/PrimaryActionButton/index.tsx
 msgid "Sell amount too small"
@@ -4470,7 +4470,7 @@ msgstr "seleccionar"
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApproveConfirmation/AdvancedApprove.tsx
 msgid "Allow spending"
-msgstr ""
+msgstr "Permitir gastos"
 
 #: apps/cowswap-frontend/src/pages/Account/Tokens/TokensOverview.tsx
 msgid "Reset favorites"
@@ -4494,7 +4494,7 @@ msgstr "para"
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApproveConfirmation/index.tsx
 msgid "Default approve"
-msgstr ""
+msgstr "Aprobar por defecto"
 
 #: apps/cowswap-frontend/src/modules/account/containers/Transaction/ActivityDetails.tsx
 #: apps/cowswap-frontend/src/modules/account/containers/Transaction/ActivityDetails.tsx
@@ -4532,7 +4532,7 @@ msgstr "Para proteger sus fondos, tendrá que retirar la aprobación de este con
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApproveConfirmation/AdvancedApprove.tsx
 msgid "Advanced"
-msgstr ""
+msgstr "Avanzado"
 
 #: apps/cowswap-frontend/src/modules/tradeFormValidation/pure/TradeFormButtons/tradeButtonsMap.tsx
 msgid "Not yet supported"
@@ -5110,7 +5110,7 @@ msgstr "¡Oh! El precio de mercado se ha movido fuera de tu tolerancia de desliz
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApproveConfirmation/AdvancedApprove.tsx
 msgid "Entered amount is invalid"
-msgstr ""
+msgstr "La cantidad introducida no es válida"
 
 #: apps/cowswap-frontend/src/utils/orderUtils/parseOrder.ts
 msgid "Creation transaction"
