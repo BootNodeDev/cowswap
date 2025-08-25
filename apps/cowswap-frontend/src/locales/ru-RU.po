@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-25 19:31\n"
+"PO-Revision-Date: 2025-08-25 19:37\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -115,7 +115,7 @@ msgstr "Заказ {value} выполнен"
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApproveConfirmation/index.tsx
 msgid "You must give the CoW Protocol smart contracts permission to use your {tokenSymbol}. If you approve the default amount, you will only have to do this once per token."
-msgstr "Вы должны предоставить разрешение на использование {tokenSymbol}для протокола CoW. Если вы подтвердите сумму по умолчанию, это необходимо будет сделать только один раз за токен."
+msgstr "Вы должны предоставить разрешение на использование {tokenSymbol} для протокола CoW. Если вы подтвердите сумму по умолчанию, это необходимо будет сделать только один раз за токен."
 
 #: apps/cowswap-frontend/src/modules/ethFlow/pure/EthFlowStepper/steps/Step3.tsx
 msgid "Receiving {nativeTokenSymbol} Refund..."
@@ -272,7 +272,7 @@ msgstr "Маркеры из неактивных списков. Импорти�
 
 #: apps/cowswap-frontend/src/modules/account/pure/OrderFillabilityWarning/index.tsx
 msgid "Order cannot be filled due to insufficient balance on the current account.<0/>Please, top up {inputAmountCurrencySymbol} balance or cancel the order."
-msgstr ""
+msgstr "Заказ не может быть исполнен из-за недостатка баланса на текущем счете <0/> Пожалуйста, пополните баланс {inputAmountCurrencySymbol} или отмените заказ."
 
 #: apps/cowswap-frontend/src/modules/wallet/pure/WalletModal/index.tsx
 msgid "By connecting a wallet, you acknowledge that you have read, understood and agree to the interface’s <0>Terms & Conditions</0>."
