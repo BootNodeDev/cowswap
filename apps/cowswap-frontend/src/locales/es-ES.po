@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-26 20:07\n"
+"PO-Revision-Date: 2025-08-26 20:10\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -618,7 +618,7 @@ msgstr "Importar token intermedio"
 
 #: libs/ui/src/pure/MenuBar/index.tsx
 msgid "Language {locale} not found"
-msgstr ""
+msgstr "Idioma {locale} no encontrado"
 
 #: apps/cowswap-frontend/src/common/pure/ExternalSourceAlert/index.tsx
 msgid "I understand"
@@ -1196,7 +1196,7 @@ msgstr "Ver todos los pedidos"
 
 #: apps/cowswap-frontend/src/modules/accountProxy/consts.ts
 msgid "Need help"
-msgstr ""
+msgstr "Necesita ayuda"
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/TransactionSubmittedContent/SurplusModal.tsx
 msgid "CoW Swap is the only token exchange that gets you extra tokens."
@@ -1484,7 +1484,7 @@ msgstr "Gana mayores beneficios con pérdida inpermanente reducida"
 
 #: apps/cowswap-frontend/src/modules/swap/containers/BottomBanners/index.tsx
 msgid "Funds stuck? <0>Recover your funds</0>"
-msgstr ""
+msgstr "¿Fondos atascados? <0>Recuperar tus fondos</0>"
 
 #: apps/cowswap-frontend/src/modules/twap/containers/TwapFormWarnings/warnings/SwapPriceDifferenceWarning.tsx
 msgid "Maximizing Your Gains!"
