@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-25 19:37\n"
+"PO-Revision-Date: 2025-08-26 14:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -3416,7 +3416,7 @@ msgstr "El precio de relleno de esta orden está cerrado o al precio de mercado 
 
 #: apps/cowswap-frontend/src/modules/twap/containers/TwapConfirmModal/TwapConfirmDetails.tsx
 msgid "TWAP order split in <0>{numOfParts} equal parts</0>"
-msgstr "Orden TWAP dividido en <0>{numOfParts} partes iguales</0>"
+msgstr "Orden TWAP dividido en <0> {numOfParts} partes iguales</0>"
 
 #: apps/cowswap-frontend/src/modules/account/containers/AccountDetails/SurplusCard.tsx
 msgid "Your total surplus"
