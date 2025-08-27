@@ -63,7 +63,13 @@ export const tradeButtonsMap: Record<TradeFormValidation, ButtonErrorConfig | Bu
       </TradeFormBlankButton>
     )
   },
-
+  [TradeFormValidation.CustomTokenError]: ({ customTokenError }) => {
+    return (
+      <TradeFormBlankButton disabled={true}>
+        <span>{customTokenError}</span>
+      </TradeFormBlankButton>
+    )
+  },
   [TradeFormValidation.CurrencyNotSet]: {
     text: <Trans>Select a token</Trans>,
   },
@@ -241,9 +247,7 @@ export const tradeButtonsMap: Record<TradeFormValidation, ButtonErrorConfig | Bu
 
     return (
       <TradeApproveButton amountToApprove={maximumSendSellAmount} enablePartialApprove={context.enablePartialApprove}>
-        <TradeFormBlankButton disabled={true}>
-          {context.defaultText}
-        </TradeFormBlankButton>
+        <TradeFormBlankButton disabled={true}>{context.defaultText}</TradeFormBlankButton>
       </TradeApproveButton>
     )
   },
