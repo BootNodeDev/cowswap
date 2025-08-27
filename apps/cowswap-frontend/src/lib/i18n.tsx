@@ -6,23 +6,16 @@ import { isLinguiInternationalizationEnabled } from '@cowprotocol/common-utils'
 import { i18n } from '@lingui/core'
 import { I18nProvider } from '@lingui/react'
 
-/**
- * Loads and activates the default locale (en-ES) for the application.
- *
- * This sets up the i18n instance with an empty message catalog for the default locale,
- * ensuring that translation keys are used as fallbacks when no translations are available.
- */
-const loadDefaultLocale = (): void => {
-  i18n.load(DEFAULT_LOCALE, {})
-  i18n.activate(DEFAULT_LOCALE)
-}
-
 // TODO: Add proper return type annotation
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 export async function dynamicActivate(locale: SupportedLocale) {
   try {
+    // Load default (en-EN) catalog if internationalization is disabled
     if (!isLinguiInternationalizationEnabled) {
-      loadDefaultLocale()
+      const defaultCatalog = await import(`../locales/${DEFAULT_LOCALE}.po`)
+
+      i18n.load(DEFAULT_LOCALE, defaultCatalog.messages || defaultCatalog.default.messages)
+      i18n.activate(DEFAULT_LOCALE)
       return
     }
 
@@ -59,7 +52,8 @@ export function Provider({ locale, onActivate, children }: ProviderProps) {
   // as [there are no "default" messages](https://github.com/lingui/js-lingui/issues/388#issuecomment-497779030).
   // See https://github.com/lingui/js-lingui/issues/1194#issuecomment-1068488619.
   if (i18n.locale === undefined && locale === DEFAULT_LOCALE) {
-    loadDefaultLocale()
+    i18n.load(DEFAULT_LOCALE, {})
+    i18n.activate(DEFAULT_LOCALE)
   }
 
   return <I18nProvider i18n={i18n}>{children}</I18nProvider>
