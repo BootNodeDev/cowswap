@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-28 01:43\n"
+"PO-Revision-Date: 2025-08-28 20:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -1466,6 +1466,10 @@ msgstr "¡Ejecuta! ...e intenta no ser sándwickeado"
 msgid "Wrap your {nativeSymbol} and use the classic {wrappedSymbol} experience!"
 msgstr "¡Envuelve tu {nativeSymbol} y usa la clásica experiencia {wrappedSymbol}!"
 
+#: apps/cowswap-frontend/src/modules/application/containers/AppMenu/index.tsx
+msgid "Languages"
+msgstr ""
+
 #: apps/cowswap-frontend/src/modules/limitOrders/pure/DeadlineSelector/index.tsx
 msgid "Set custom deadline"
 msgstr "Establecer fecha límite"
@@ -2699,8 +2703,8 @@ msgid "No open orders"
 msgstr "No hay pedidos abiertos"
 
 #: apps/cowswap-frontend/src/modules/tradeFormValidation/pure/TradeFormButtons/tradeButtonsMap.tsx
-msgid "ENS recipient not supported for Swap and Bridge — use address instead."
-msgstr "ENS recipient not supported for Swap and Bridge — use address instead."
+#~ msgid "ENS recipient not supported for Swap and Bridge — use address instead."
+#~ msgstr "ENS recipient not supported for Swap and Bridge — use address instead."
 
 #: apps/cowswap-frontend/src/modules/swap/containers/SwapWidget/index.tsx
 msgid "Expected sell amount"
@@ -4773,6 +4777,10 @@ msgstr "1 Semana"
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/OrdersTableContainer/NoOrdersContent.tsx
 msgid "There are no orders"
 msgstr "No hay pedidos"
+
+#: apps/cowswap-frontend/src/modules/tradeFormValidation/pure/TradeFormButtons/tradeButtonsMap.tsx
+msgid "ENS recipient not supported for Swap and Bridge. Use address instead."
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/account/containers/Transaction/ActivityDetails.tsx
 #: apps/cowswap-frontend/src/modules/account/containers/Transaction/ActivityDetails.tsx
