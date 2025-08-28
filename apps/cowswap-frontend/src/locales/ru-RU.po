@@ -1996,8 +1996,7 @@ msgid "If allowance remains insufficient at creation time, this portion will not
 msgstr "Если пособие остается недостаточным в момент создания, эта часть не будет создана. Утвердите"
 
 #: apps/cowswap-frontend/src/common/utils/getSwapErrorMessage.ts
-#~ msgid "User rejected signing the order"
-#~ msgstr "User rejected signing the order"
+#~ msgstr "Пользователь отклонил подписание заказа"
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/constants.ts
 msgid "Executing', description: 'The winner of the competition is now executing your order on-chain."
