@@ -3303,7 +3303,7 @@ msgstr "Сейчас"
 
 #: apps/cowswap-frontend/src/modules/swap/pure/CrossChainUnlockScreen/index.tsx
 msgid "Mooove between <0/> any chain, hassle-free"
-msgstr "Размещение между <0/> любой цепи, без проблем"
+msgstr "Переходите между <0/> любыми сетями легко и просто"
 
 #: apps/cowswap-frontend/src/modules/bridge/pure/contents/QuoteSwapContent/index.tsx
 msgid "The address that will receive the tokens."
