@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-28 20:18\n"
+"PO-Revision-Date: 2025-08-28 20:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -1468,7 +1468,7 @@ msgstr "¡Envuelve tu {nativeSymbol} y usa la clásica experiencia {wrappedSymbo
 
 #: apps/cowswap-frontend/src/modules/application/containers/AppMenu/index.tsx
 msgid "Languages"
-msgstr ""
+msgstr "Idiomas"
 
 #: apps/cowswap-frontend/src/modules/limitOrders/pure/DeadlineSelector/index.tsx
 msgid "Set custom deadline"
@@ -4780,7 +4780,7 @@ msgstr "No hay pedidos"
 
 #: apps/cowswap-frontend/src/modules/tradeFormValidation/pure/TradeFormButtons/tradeButtonsMap.tsx
 msgid "ENS recipient not supported for Swap and Bridge. Use address instead."
-msgstr ""
+msgstr "El destinatario de ENS no es compatible con Swap y Bridge. Utilice la dirección en su lugar."
 
 #: apps/cowswap-frontend/src/modules/account/containers/Transaction/ActivityDetails.tsx
 #: apps/cowswap-frontend/src/modules/account/containers/Transaction/ActivityDetails.tsx
