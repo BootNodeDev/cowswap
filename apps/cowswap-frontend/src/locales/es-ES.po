@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-29 02:30\n"
+"PO-Revision-Date: 2025-08-29 02:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -1865,7 +1865,7 @@ msgstr "Cuando está activado, el precio límite se mantiene fijo al cambiar la 
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/steps/FinishedStep.tsx
 msgid "{solversLength} solvers"
-msgstr ""
+msgstr "Resolutores {solversLength}"
 
 #: apps/cowswap-frontend/src/pages/Account/LockedGnoVesting/hooks.ts
 msgid "Claim vested"
@@ -3600,7 +3600,7 @@ msgstr "El Protocolo de CoW cubre los costos ejecutando su pedido a un precio li
 
 #: apps/cowswap-frontend/src/modules/limitOrders/pure/RateImpactWarning/index.tsx
 msgid "Your limit price is {absoluteRateImpact}% lower than current market price. You could be selling your<0/> at a loss (although CoW Swap will always try to give you the best price regardless)."
-msgstr ""
+msgstr "Tu precio límite es {absoluteRateImpact}% más bajo que el precio de mercado actual. Podrías estar vendiendo tu <0/> con pérdida (aunque CoW Swap siempre intentará darte el mejor precio de todos modos)."
 
 #: apps/cowswap-frontend/src/modules/hooksStore/containers/HookSearchInput/index.tsx
 msgid "Clear search input"
@@ -4237,7 +4237,7 @@ msgstr "Cancelar su pedido"
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/steps/FinishedStep.tsx
 msgid "{solversLength} out of {totalSolvers} solvers"
-msgstr ""
+msgstr "Resolver {solversLength} de {totalSolvers}"
 
 #: apps/cowswap-frontend/src/legacy/components/ErrorBoundary/ErrorWithStackTrace.tsx
 msgid "Something went wrong"
