@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-28 22:59\n"
+"PO-Revision-Date: 2025-08-29 00:15\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -1124,7 +1124,7 @@ msgstr "Ошибка {verb} заказа"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/ReceiptModal/index.tsx
 msgid "this order"
-msgstr ""
+msgstr "этот заказ"
 
 #: apps/cowswap-frontend/src/modules/twap/containers/TwapFormWarnings/warnings/SmallPartTimeWarning.tsx
 msgid "A minimum of <0>{time}</0> between parts is required. Decrease the number of parts or increase the total duration."
@@ -2343,7 +2343,7 @@ msgstr "Добавить пользовательский хук"
 
 #: apps/cowswap-frontend/src/modules/notifications/pure/TelegramConnectionStatus/index.tsx
 msgid "Connected"
-msgstr ""
+msgstr "Подключено"
 
 #: apps/cowswap-frontend/src/legacy/components/ErrorBoundary/ChunkLoadError.tsx
 msgid "This page can't be reached"
@@ -3336,7 +3336,7 @@ msgstr "Подтверждение влияния цены"
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/constants.ts
 msgid "Executing"
-msgstr ""
+msgstr "Выполнение"
 
 #: apps/cowswap-frontend/src/modules/account/containers/AccountDetails/SurplusCard.tsx
 msgid "The total surplus CoW Swap has generated for you in {nativeSymbol} across all your trades since {startDate}."
@@ -3659,7 +3659,7 @@ msgstr "Инвентарист Uniswap x*y=k не удовлетворен об�
 
 #: apps/cowswap-frontend/src/modules/swap/containers/SwapConfirmModal/useLabelsAndTooltips.tsx
 msgid "dynamic"
-msgstr ""
+msgstr "динамичный"
 
 #: apps/cowswap-frontend/src/common/pure/PoweredFooter/index.tsx
 #: apps/cowswap-frontend/src/modules/hooksStore/pure/AppliedHookItem/index.tsx
