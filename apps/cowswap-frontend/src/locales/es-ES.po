@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-29 01:53\n"
+"PO-Revision-Date: 2025-08-29 01:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -2713,7 +2713,7 @@ msgstr "No hay pedidos abiertos"
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/steps/SolvingStep.tsx
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/steps/SolvingStep.tsx
 msgid " or <0/>"
-msgstr ""
+msgstr " o <0/>"
 
 #: apps/cowswap-frontend/src/modules/tradeFormValidation/pure/TradeFormButtons/tradeButtonsMap.tsx
 #~ msgid "ENS recipient not supported for Swap and Bridge — use address instead."
@@ -3305,7 +3305,7 @@ msgstr "Descuento de cuotas de CoWmunity"
 
 #: apps/cowswap-frontend/src/modules/swap/containers/TradeButtons/swapTradeButtonsMap.tsx
 msgid "Swap with"
-msgstr ""
+msgstr "Intercambiar con"
 
 #: apps/cowswap-frontend/src/modules/limitOrders/pure/ExecutionPriceTooltip/index.tsx
 msgid "Current network fees"
@@ -5218,7 +5218,7 @@ msgstr "No se pudo cambiar de redes desde la interfaz de intercambio de CoW. Par
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/steps/FinishedStep.tsx
 msgid "out of"
-msgstr ""
+msgstr "fuera de"
 
 #: apps/cowswap-frontend/src/modules/limitOrders/pure/InfoBanner/index.tsx
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/OrdersTableContainer/NoOrdersContent.tsx
