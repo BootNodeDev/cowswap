@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-29 00:15\n"
+"PO-Revision-Date: 2025-08-29 01:19\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -2519,8 +2519,8 @@ msgid "Error"
 msgstr "Ошибка"
 
 #: apps/cowswap-frontend/src/modules/orders/containers/BridgingSuccessNotification/index.tsx
-msgid "Sell {inputAmount} {label}"
-msgstr "Продать {inputAmount} {label}"
+#~ msgid "Sell {inputAmount} {label}"
+#~ msgstr "Sell {inputAmount} {label}"
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/steps/SolvingStep.tsx
 msgid "Something went wrong and your order couldn't be executed with this batch. But don't worry! CoW Swap is already holding another competition for your order."
@@ -4934,6 +4934,7 @@ msgid "Loading bridge data <0/>"
 msgstr "Загрузка данных моста <0/>"
 
 #: apps/cowswap-frontend/src/modules/limitOrders/containers/LimitOrdersWidget/index.tsx
+#: apps/cowswap-frontend/src/modules/orders/containers/BridgingSuccessNotification/index.tsx
 #: apps/cowswap-frontend/src/modules/orders/pure/OrderSummary/summaryTemplates.tsx
 #: apps/cowswap-frontend/src/modules/twap/containers/TwapConfirmModal/TwapConfirmDetails.tsx
 msgid "Sell"
