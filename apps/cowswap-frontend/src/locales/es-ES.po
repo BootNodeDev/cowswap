@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-09-03 16:38\n"
+"PO-Revision-Date: 2025-09-10 14:59\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -4166,8 +4166,8 @@ msgid "Confirm with your wallet"
 msgstr "Confirmar con su billetera"
 
 #: apps/cowswap-frontend/src/modules/swap/pure/CrossChainUnlockScreen/index.tsx
-msgid "Swaps just got smarter"
-msgstr "Los swaps se volvieron más inteligentes"
+#~ msgid "Swaps just got smarter"
+#~ msgstr "Swaps just got smarter"
 
 #: apps/cowswap-frontend/src/modules/tradeWidgetAddons/containers/HighFeeWarning/highFeeWarningHelpers.ts
 msgid "Swap costs are at least {formattedFeePercentage}% of the swap amount"
@@ -4327,6 +4327,10 @@ msgstr "Simulación exitosa"
 #: apps/cowswap-frontend/src/modules/twap/containers/TwapConfirmModal/TwapConfirmDetails.tsx
 msgid "part"
 msgstr "parte"
+
+#: apps/cowswap-frontend/src/modules/swap/pure/CrossChainUnlockScreen/index.tsx
+msgid "Cross-chain swaps are here"
+msgstr ""
 
 #: apps/cowswap-frontend/src/legacy/components/CowSubsidyModal/SubsidyTable.tsx
 msgid "Fee discount"
