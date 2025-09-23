@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-09-23 15:59\n"
+"PO-Revision-Date: 2025-09-23 17:52\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -649,8 +649,8 @@ msgid "Loading operation"
 msgstr "Операция загрузки"
 
 #: apps/cowswap-frontend/src/common/constants/routes.ts
-msgid "Limits"
-msgstr "Лимиты"
+msgid "Limit"
+msgstr "Лимит"
 
 #: apps/cowswap-frontend/src/modules/application/containers/App/menuConsts.tsx
 msgid "CoW Runner"
@@ -2089,7 +2089,7 @@ msgstr "Выберите фонд"
 
 #: apps/cowswap-frontend/src/modules/accountProxy/pure/FAQContent/index.tsx
 msgid "Since {ACCOUNT_PROXY_LABEL} is not an upgradeable smart-contract, it can be versioned and there are"
-msgstr ""
+msgstr "Поскольку {ACCOUNT_PROXY_LABEL} не является обновлённым смарт-контрактом, он может быть версирован и есть"
 
 #: apps/cowswap-frontend/src/modules/hooksStore/dapps/PermitHookApp/index.tsx
 msgid "Token not permittable"
@@ -5102,7 +5102,7 @@ msgstr "Загрузка"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/ReceiptModal/OrderTypeField.tsx
 msgid "Limit"
-msgstr "Лимит"
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/trade/pure/TradeConfirmation/getPendingText.ts
 msgid "Confirm bridging"
