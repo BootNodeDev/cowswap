@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-09-23 15:59\n"
+"PO-Revision-Date: 2025-09-23 17:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -649,8 +649,8 @@ msgid "Loading operation"
 msgstr "Cargando operación"
 
 #: apps/cowswap-frontend/src/common/constants/routes.ts
-msgid "Limits"
-msgstr "Límites"
+msgid "Limit"
+msgstr "Límite"
 
 #: apps/cowswap-frontend/src/modules/application/containers/App/menuConsts.tsx
 msgid "CoW Runner"
@@ -2089,7 +2089,7 @@ msgstr "Seleccione un grupo"
 
 #: apps/cowswap-frontend/src/modules/accountProxy/pure/FAQContent/index.tsx
 msgid "Since {ACCOUNT_PROXY_LABEL} is not an upgradeable smart-contract, it can be versioned and there are"
-msgstr ""
+msgstr "Dado que {ACCOUNT_PROXY_LABEL} no es un contrato inteligente, puede ser versionado y hay"
 
 #: apps/cowswap-frontend/src/modules/hooksStore/dapps/PermitHookApp/index.tsx
 msgid "Token not permittable"
@@ -5102,7 +5102,7 @@ msgstr "Cargando"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/ReceiptModal/OrderTypeField.tsx
 msgid "Limit"
-msgstr "Límite"
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/trade/pure/TradeConfirmation/getPendingText.ts
 msgid "Confirm bridging"
