@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswapdev\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-06 13:02\n"
+"PO-Revision-Date: 2025-10-06 13:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -826,7 +826,7 @@ msgstr "Posiblemente tenga otros artículos que reclamar, pero no Airdrops"
 
 #: apps/cowswap-frontend/src/modules/tokensList/containers/LpTokenPage/index.tsx
 msgid "APR"
-msgstr ""
+msgstr "APR"
 
 #: apps/cowswap-frontend/src/common/pure/NetworksList/index.tsx
 msgid "CoW Protocol Explorer"
@@ -1026,7 +1026,7 @@ msgstr "Minimizar el impacto del precio con TWAP"
 
 #: apps/cowswap-frontend/src/modules/tradeWidgetAddons/containers/SettingsTab/index.tsx
 msgid "Allows you to set partial token approvals instead of full approvals."
-msgstr ""
+msgstr "Le permite establecer aprobaciones parciales de tokens en lugar de aprobaciones completas."
 
 #: apps/cowswap-frontend/src/modules/accountProxy/containers/AccountProxiesPage/index.tsx
 #~ msgid "Select an {ACCOUNT_PROXY_LABEL} to check for available refunds {chain}"
@@ -1516,7 +1516,7 @@ msgstr "aceptado"
 
 #: apps/cowswap-frontend/src/modules/tokensList/containers/LpTokenPage/index.tsx
 msgid "TVL"
-msgstr ""
+msgstr "TVL"
 
 #: apps/cowswap-frontend/src/modules/twap/containers/TwapFormWarnings/warnings/UnsupportedWalletWarning.tsx
 msgid "Use Safe web app"
@@ -3858,7 +3858,7 @@ msgstr "Impacto de precios <0>desconocido</0> - Intercambia cuidadosamente"
 
 #: apps/cowswap-frontend/src/modules/tradeWidgetAddons/containers/SettingsTab/index.tsx
 msgid "Enable partial approvals"
-msgstr ""
+msgstr "Habilitar aprobación parcial"
 
 #: apps/cowswap-frontend/src/common/containers/OrderHooksDetails/HookItem/index.tsx
 #: apps/cowswap-frontend/src/modules/accountProxy/pure/AccountItem/index.tsx
@@ -5640,7 +5640,7 @@ msgstr "Confirmar puente"
 
 #: apps/cowswap-frontend/src/modules/tradeFormValidation/pure/TradeFormButtons/tradeButtonsMap.tsx
 msgid "Approve and {defaultText}"
-msgstr ""
+msgstr "Aprobar y {defaultText}"
 
 #: apps/cowswap-frontend/src/pages/Account/LockedGnoVesting/index.tsx
 msgid "<0>COW vesting from the GNO lock</0> is vested linearly over four years, starting on"
