@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswap18n\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-16 13:48\n"
+"PO-Revision-Date: 2025-10-16 13:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -606,7 +606,7 @@ msgstr "Programado"
 
 #: apps/cowswap-frontend/src/modules/swap/hooks/useGetConfirmButtonLabel.ts
 msgid "Approve and Swap"
-msgstr ""
+msgstr "Aprobar e intercambiar"
 
 #: apps/cowswap-frontend/src/common/constants/routes.ts
 #: apps/cowswap-frontend/src/modules/limitOrders/containers/LimitOrdersConfirmModal/index.tsx
@@ -1266,7 +1266,7 @@ msgstr "Máx"
 
 #: apps/cowswap-frontend/src/modules/swap/hooks/useGetConfirmButtonLabel.ts
 msgid "Approve, Swap & Bridge"
-msgstr ""
+msgstr "Aprobación, intercambio y puente"
 
 #: apps/cowswap-frontend/src/modules/advancedOrders/containers/AdvancedOrdersWidget/index.tsx
 msgid "Get the Time-Weighted Average Price by splitting your large order into parts"
