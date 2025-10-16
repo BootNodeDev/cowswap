@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: cowswap18n\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-16 13:48\n"
+"PO-Revision-Date: 2025-10-16 13:51\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -606,7 +606,7 @@ msgstr "Запланированный"
 
 #: apps/cowswap-frontend/src/modules/swap/hooks/useGetConfirmButtonLabel.ts
 msgid "Approve and Swap"
-msgstr ""
+msgstr "Одобрить и заменить"
 
 #: apps/cowswap-frontend/src/common/constants/routes.ts
 #: apps/cowswap-frontend/src/modules/limitOrders/containers/LimitOrdersConfirmModal/index.tsx
@@ -1266,7 +1266,7 @@ msgstr "Макс"
 
 #: apps/cowswap-frontend/src/modules/swap/hooks/useGetConfirmButtonLabel.ts
 msgid "Approve, Swap & Bridge"
-msgstr ""
+msgstr "Утверждение, замена и мост"
 
 #: apps/cowswap-frontend/src/modules/advancedOrders/containers/AdvancedOrdersWidget/index.tsx
 msgid "Get the Time-Weighted Average Price by splitting your large order into parts"
