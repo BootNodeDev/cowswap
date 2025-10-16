@@ -648,7 +648,7 @@ msgstr "Limit price (incl. costs)"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/containers/OrderRow/OrderContextMenu.tsx
 msgid "Order receipt"
-msgstr "Order receipt"
+msgstr "Recibo de la orden"
 
 #: apps/cowswap-frontend/src/pages/Account/Governance.tsx
 msgid "CoW forum"
@@ -3348,7 +3348,7 @@ msgstr "Token symbol, address"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/ReceiptModal/index.tsx
 msgid "Order Receipt"
-msgstr "Order Receipt"
+msgstr "Recibo de la orden"
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/steps/FinishedStep.tsx
 msgid "Transaction completed!"
