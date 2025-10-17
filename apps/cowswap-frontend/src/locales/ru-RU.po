@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: cowswap18n\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-16 18:48\n"
+"PO-Revision-Date: 2025-10-17 20:15\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -226,6 +226,10 @@ msgstr "Ваш ордер на TWAP не будет выполнять и защ
 #: apps/cowswap-frontend/src/api/cowProtocol/errors/OperatorError.ts
 msgid "The order cannot be {statusText}. Your account is deny-listed."
 msgstr "Заказ не может быть {statusText}. Ваша учетная запись запрещена в списке."
+
+#: apps/cowswap-frontend/src/modules/bridge/pure/ProxyAccountBanner/index.tsx
+msgid "The bridge provider modified the recipient address to <0/>. This ensure smooooth bridging."
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/hooksStore/pure/AppliedHookItem/index.tsx
 msgid "The Tenderly simulation was successful. Your transaction is expected to succeed."
@@ -564,6 +568,10 @@ msgstr "Подпишитесь (бесплатно!) в вашем кошель�
 msgid "If your order has not been filled by this date & time, it will expire. Don't worry - expirations and order placement are free on CoW Swap!"
 msgstr "Если ваш заказ не был исполнен к этой дате и времени, срок его действия истечет. Не волнуйтесь - срок действия и размещение заказов бесплатны на CoW Swap!"
 
+#: apps/cowswap-frontend/src/modules/bridge/pure/ProxyAccountBanner/index.tsx
+msgid "Only proceed if you trust this provider."
+msgstr ""
+
 #: apps/cowswap-frontend/src/modules/tokensList/pure/FavoriteTokensList/index.tsx
 msgid "Your favorite saved tokens. Edit this list in the <0>Tokens page</0>."
 msgstr "Ваши любимые сохраненные маркеры. Редактировать этот список на странице <0>Жетоны</0>."
@@ -839,6 +847,10 @@ msgstr "предупреждение"
 #: apps/cowswap-frontend/src/pages/Account/Balances.tsx
 msgid "Available COW balance"
 msgstr "Доступный баланс COW"
+
+#: apps/cowswap-frontend/src/modules/bridge/pure/BridgeTransactionLink/index.tsx
+msgid "Bridge explorer"
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/hooksStore/dapps/AirdropHookApp/hooks/useClaimData.ts
 msgid "You possibly have other items to claim, but not Airdrops"
@@ -1121,6 +1133,10 @@ msgstr "Хотите попробовать лимитные ордеры?"
 msgid "smart contracts (e.g. Safe)"
 msgstr "смарт-контракты (например, Safe)"
 
+#: apps/cowswap-frontend/src/modules/trade/pure/TradeConfirmation/CountDown.tsx
+msgid "Quote refresh in"
+msgstr ""
+
 #: apps/cowswap-frontend/src/modules/account/containers/OrdersPanel/index.tsx
 #: apps/cowswap-frontend/src/modules/application/containers/App/menuConsts.tsx
 #: apps/cowswap-frontend/src/modules/application/containers/App/menuConsts.tsx
@@ -1190,9 +1206,9 @@ msgstr "CoW AMM"
 msgid "Too much time between parts"
 msgstr "Слишком много времени между частями"
 
-#: apps/cowswap-frontend/src/modules/swap/containers/TradeButtons/index.tsx
-#~ msgid "Swap and Bridge"
-#~ msgstr "Swap and Bridge"
+#: apps/cowswap-frontend/src/modules/swap/hooks/useGetConfirmButtonLabel.ts
+msgid "Swap and Bridge"
+msgstr ""
 
 #: apps/cowswap-frontend/src/common/containers/OrderHooksDetails/index.tsx
 msgid "POST"
@@ -1631,13 +1647,17 @@ msgstr "Частично заполненный заказ"
 msgid "Time to create a new one!"
 msgstr "Пришло время создать новый!"
 
+#: apps/cowswap-frontend/src/modules/bridge/pure/BridgeTransactionLink/index.tsx
+msgid "View on bridge explorer"
+msgstr ""
+
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/steps/ExpiredStep.tsx
 msgid "or send us an email at"
 msgstr "или отправьте нам письмо на"
 
 #: apps/cowswap-frontend/src/modules/bridge/pure/ProxyAccountBanner/index.tsx
-#~ msgid "CoW Swap uses a dedicated {ACCOUNT_PROXY_LABEL}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
-#~ msgstr "CoW Swap uses a dedicated {ACCOUNT_PROXY_LABEL}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
+msgid "CoW Swap uses a dedicated {ACCOUNT_PROXY_LABEL}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/bridge/pure/contents/QuoteBridgeContent/index.tsx
 msgid "The minimum possible outcome after swap, including costs and slippage."
@@ -1683,9 +1703,9 @@ msgstr "Сделки средств? <0>Восстановить средств�
 msgid "Maximizing Your Gains!"
 msgstr "Увеличивает ваши доходы!"
 
-#: apps/cowswap-frontend/src/common/hooks/useApproveCallback.ts
-#~ msgid "Revoke {tokenSymbol} approval"
-#~ msgstr "Revoke {tokenSymbol} approval"
+#: apps/cowswap-frontend/src/modules/erc20Approve/hooks/useApproveCallback.tsx
+msgid "Revoke {tokenSymbol} approval"
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/OrdersTableContainer/NoOrdersContent.tsx
 msgid "Use the <0/> to see {orderTabLink}"
@@ -2577,8 +2597,8 @@ msgid "CoW Swap is the only exchange that matches Coincidences of Wants (CoWs): 
 msgstr "CoW Swap – это единственная биржа, которая совпадает с Coincidences of Wants (CoWs): равноправная замена, которая сэкономит на расчетно-расчетных расходах."
 
 #: apps/cowswap-frontend/src/modules/bridge/pure/ProxyAccountBanner/index.tsx
-msgid "CoW Swap uses a dedicated {accountProxyLabelString}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
-msgstr "CoW Swap использует выделенный {accountProxyLabelString}, управляется только вами, чтобы обеспечить плавный мостик. Подтвердите адрес получателя выше <0/>"
+#~ msgid "CoW Swap uses a dedicated {accountProxyLabelString}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
+#~ msgstr "CoW Swap uses a dedicated {accountProxyLabelString}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
 
 #: apps/cowswap-frontend/src/common/utils/tradeSettingsTooltips.tsx
 #~ msgid "Your swap expires and will not execute if it is pending for longer than the selected duration.<0/><1/>{INPUT_OUTPUT_EXPLANATION}"
@@ -2893,8 +2913,8 @@ msgid "Read more about unsupported tokens"
 msgstr "Подробнее о неподдерживаемых токенах"
 
 #: apps/cowswap-frontend/src/modules/trade/pure/TradeConfirmation/CountDown.tsx
-msgid "Quote refresh in <0>{value} sec</0>"
-msgstr "Цитата обновляется через <0>{value} секунд</0>"
+#~ msgid "Quote refresh in <0>{value} sec</0>"
+#~ msgstr "Quote refresh in <0>{value} sec</0>"
 
 #: apps/cowswap-frontend/src/api/cowProtocol/errors/OperatorError.ts
 msgid "cancelling"
@@ -3237,9 +3257,9 @@ msgstr "Заказ вне рынка"
 msgid "{solver} logo"
 msgstr "Логотип {solver}"
 
-#: apps/cowswap-frontend/src/common/hooks/useApproveCallback.ts
-#~ msgid "Approve {tokenSymbol}"
-#~ msgstr "Approve {tokenSymbol}"
+#: apps/cowswap-frontend/src/modules/erc20Approve/hooks/useApproveCallback.tsx
+msgid "Approve {tokenSymbol}"
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/ordersTable/containers/OrderRow/EstimatedExecutionPrice.tsx
 msgid "The fill price of this order is close or at the market price and is expected to fill soon"
@@ -3436,6 +3456,10 @@ msgstr "Действителен до"
 #: apps/cowswap-frontend/src/modules/twap/hooks/useCancelTwapOrder.ts
 msgid "Composable Cow and Settlement contracts are not on the same chain"
 msgstr "Контракты на композиционные коровы и расчеты не заключаются в одной цепочке"
+
+#: apps/cowswap-frontend/src/modules/bridge/pure/ProxyAccountBanner/index.tsx
+msgid "Swap bridged via your"
+msgstr ""
 
 #: apps/cowswap-frontend/src/common/hooks/useSwapAndBridgeContext.ts
 #: apps/cowswap-frontend/src/common/hooks/useSwapAndBridgeContext.ts
@@ -4353,8 +4377,8 @@ msgid "No surplus for the given time period"
 msgstr "Нет излишков за указанный период времени"
 
 #: apps/cowswap-frontend/src/modules/notifications/containers/NotificationSidebar/index.tsx
-#~ msgid "Notifications"
-#~ msgstr "Notifications"
+msgid "Notifications"
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/trade/containers/TradeWidgetLinks/index.tsx
 #~ msgid "Trading mode"
@@ -4970,6 +4994,10 @@ msgstr "Ошибка загрузки подлежащей возмещению 
 msgid "Attention"
 msgstr "Внимание"
 
+#: apps/cowswap-frontend/src/modules/tokensList/pure/SelectTokenModal/SelectTokenModalContent.tsx
+msgid "This route is not yet supported."
+msgstr ""
+
 #: apps/cowswap-frontend/src/modules/ordersTable/containers/OrderRow/OrderWarning.tsx
 msgid "The order remains open. Execution requires sufficient"
 msgstr "Порядок остается открытым. Выполнение требует достаточного"
@@ -5086,8 +5114,8 @@ msgid "MEV-protected slippage"
 msgstr "MEV-защищённое проскальзывание"
 
 #: apps/cowswap-frontend/src/modules/bridge/pure/ProxyAccountBanner/index.tsx
-msgid "Swap bridged via your {accountProxyLabelString}: <0/>"
-msgstr "Поменять местами мост через ваш {accountProxyLabelString}: <0/>"
+#~ msgid "Swap bridged via your {accountProxyLabelString}: <0/>"
+#~ msgstr "Swap bridged via your {accountProxyLabelString}: <0/>"
 
 #: apps/cowswap-frontend/src/modules/hooksStore/dapps/AirdropHookApp/hooks/useClaimData.ts
 msgid "There was an error trying to load claimable tokens"
@@ -5300,6 +5328,10 @@ msgstr "Ваш заказ был создан на эту дату и время
 msgid "Confirm Swap"
 msgstr "Подтверждение смены"
 
+#: apps/cowswap-frontend/src/modules/bridge/pure/ProxyAccountBanner/index.tsx
+msgid "Modified recipient address to"
+msgstr ""
+
 #: apps/cowswap-frontend/src/api/cowProtocol/errors/OperatorError.ts
 #~ msgid "Something failed. Please try again later."
 #~ msgstr "Something failed. Please try again later."
@@ -5307,6 +5339,10 @@ msgstr "Подтверждение смены"
 #: apps/cowswap-frontend/src/modules/hooksStore/containers/HookSearchInput/index.tsx
 msgid "Search hooks..."
 msgstr "Поиск хуков..."
+
+#: apps/cowswap-frontend/src/modules/trade/pure/TradeConfirmation/CountDown.tsx
+msgid "{value} sec"
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/injectedWidget/utils/validatePartnerFee.ts
 msgid "Partner fee recipient must be set!"
@@ -5395,6 +5431,7 @@ msgstr "Так как вы используете смарт-кошелек с �
 #: apps/cowswap-frontend/src/modules/bridge/pure/BridgeActivitySummary/SwapStepRow.tsx
 #: apps/cowswap-frontend/src/modules/ethFlow/pure/EthFlowModalContent/configs.ts
 #: apps/cowswap-frontend/src/modules/swap/containers/SwapConfirmModal/index.tsx
+#: apps/cowswap-frontend/src/modules/swap/hooks/useGetConfirmButtonLabel.ts
 #: apps/cowswap-frontend/src/modules/yield/containers/TradeButtons/index.tsx
 #: apps/cowswap-frontend/src/modules/yield/containers/YieldWidget/elements.tsx
 #: apps/cowswap-frontend/src/utils/orderUtils/getUiOrderType.ts
@@ -5758,7 +5795,7 @@ msgstr "<0>СОЗДАТЬ вестинг от GNO блокировки</0> ра�
 
 #: apps/cowswap-frontend/src/modules/twap/containers/TwapFormWidget/tooltips.tsx
 msgid "The \"Part duration\" refers to the duration between each part of your TWAP order.<0/><1/>Choosing a shorter time allows for faster execution of each part, potentially reducing price fluctuations. Striking the right balance is crucial for optimal execution."
-msgstr "\"Продолжительность части\" означает длительность между каждой частью вашего TWAP заказа. 0/><1/>Выбор более короткого времени позволяет быстрее выполнять каждую часть, потенциально уменьшая ценовые колебания."
+msgstr "\"Продолжительность части\" означает длительность между каждой частью вашего TWAP заказа. <0/><1/>Выбор более короткого времени позволяет быстрее выполнять каждую часть, потенциально уменьшая ценовые колебания."
 
 #: apps/cowswap-frontend/src/modules/twap/pure/CustomDeadlineSelector/index.tsx
 msgid "Hours"
