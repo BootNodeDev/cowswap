@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswap18n\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-17 21:19\n"
+"PO-Revision-Date: 2025-10-17 21:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -1656,8 +1656,8 @@ msgid "or send us an email at"
 msgstr "o envíanos un email a"
 
 #: apps/cowswap-frontend/src/modules/bridge/pure/ProxyAccountBanner/index.tsx
-msgid "CoW Swap uses a dedicated {ACCOUNT_PROXY_LABEL}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
-msgstr "CoW Swap utiliza un {ACCOUNT_PROXY_LABEL} dedicado, controlado solo por ti, para asegurar un puente liso. Confirma la dirección del destinatario anterior es <0/>"
+#~ msgid "CoW Swap uses a dedicated {ACCOUNT_PROXY_LABEL}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
+#~ msgstr "CoW Swap uses a dedicated {ACCOUNT_PROXY_LABEL}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
 
 #: apps/cowswap-frontend/src/modules/bridge/pure/contents/QuoteBridgeContent/index.tsx
 msgid "The minimum possible outcome after swap, including costs and slippage."
@@ -2597,8 +2597,8 @@ msgid "CoW Swap is the only exchange that matches Coincidences of Wants (CoWs): 
 msgstr "El intercambio de coW es el único intercambio que coincide con Coincidencias de Wants (CoWs): swaps peer-to-peer que ahorran en costos de liquidación."
 
 #: apps/cowswap-frontend/src/modules/bridge/pure/ProxyAccountBanner/index.tsx
-#~ msgid "CoW Swap uses a dedicated {accountProxyLabelString}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
-#~ msgstr "CoW Swap uses a dedicated {accountProxyLabelString}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
+msgid "CoW Swap uses a dedicated {accountProxyLabelString}, controlled only by you, to ensure smooooth bridging. Confirm the recipient address above is <0/>"
+msgstr ""
 
 #: apps/cowswap-frontend/src/common/utils/tradeSettingsTooltips.tsx
 #~ msgid "Your swap expires and will not execute if it is pending for longer than the selected duration.<0/><1/>{INPUT_OUTPUT_EXPLANATION}"
