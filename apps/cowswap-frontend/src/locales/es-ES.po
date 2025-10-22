@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: cowswap18n\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-21 19:44\n"
+"PO-Revision-Date: 2025-10-22 15:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -676,8 +676,8 @@ msgid "CoW Swap is now live on Arbitrum, Base, Polygon, and Avalanche. Switch th
 msgstr "El intercambio de CoW ahora está en vivo en Arbitrum, Base, Polygon y Avalanche. Cambia la conexión de red en la barra de navegación para transacciones rápidas y baratas"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/OrdersTableContainer/NoOrdersContent.tsx
-msgid "You don't have any {orderTabState} orders at the moment."
-msgstr "No tienes ningún pedido {orderTabState} en este momento."
+#~ msgid "You don't have any {orderTabState} orders at the moment."
+#~ msgstr "You don't have any {orderTabState} orders at the moment."
 
 #: apps/cowswap-frontend/src/modules/limitOrders/pure/Settings/index.tsx
 msgid "Limit Price Position"
@@ -977,6 +977,10 @@ msgstr "Historial de órdenes"
 msgid "any token into CoW AMM pools to start benefiting from attractive APRs."
 msgstr "cualquier token en los pools de CoW AMM para comenzar a beneficiarse de APR atractivos."
 
+#: apps/cowswap-frontend/src/modules/ordersTable/pure/OrdersTableContainer/NoOrdersContent.tsx
+msgid "You don't have any {orderStatusText} orders at the moment."
+msgstr ""
+
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/steps/SolvingStep.tsx
 msgid "Something went wrong. But don't worry! <0>CoW Swap solvers</0> are searching again for the best price for you."
 msgstr "Algo salió mal. Pero no te preocupes! <0>Los solucionadores de intercambio de CoW </0> están buscando de nuevo el mejor precio para ti."
@@ -1228,8 +1232,8 @@ msgid "Share on Twitter"
 msgstr "Compartir en Twitter"
 
 #: apps/cowswap-frontend/src/common/pure/CurrencyArrowSeparator/index.tsx
-msgid "loading"
-msgstr "cargando"
+#~ msgid "loading"
+#~ msgstr "loading"
 
 #: apps/cowswap-frontend/src/modules/advancedOrders/pure/Settings/index.tsx
 #: apps/cowswap-frontend/src/modules/limitOrders/pure/Settings/index.tsx
@@ -1712,8 +1716,8 @@ msgid "Revoke {tokenSymbol} approval"
 msgstr "Revocar {tokenSymbol} aprobación"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/OrdersTableContainer/NoOrdersContent.tsx
-msgid "Use the <0/> to see {orderTabLink}"
-msgstr "Usa el <0/> para ver {orderTabLink}"
+#~ msgid "Use the <0/> to see {orderTabLink}"
+#~ msgstr "Use the <0/> to see {orderTabLink}"
 
 #: apps/cowswap-frontend/src/legacy/components/AppziButton/index.tsx
 msgid "Provide Feedback"
@@ -2723,6 +2727,10 @@ msgstr "Desenvolver"
 #: apps/cowswap-frontend/src/modules/hooksStore/dapps/ClaimGnoHookApp/index.tsx
 msgid "Connect your wallet first"
 msgstr "Conecte su billetera primero"
+
+#: apps/cowswap-frontend/src/modules/ordersTable/pure/OrdersTableContainer/NoOrdersContent.tsx
+msgid "Animated cow reacts to empty order list"
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/notifications/containers/NotificationSidebar/index.tsx
 msgid "Trade alerts"
@@ -5008,8 +5016,8 @@ msgid "signing"
 msgstr "firmando"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/OrdersTableContainer/NoOrdersContent.tsx
-msgid "Cow meditating..."
-msgstr "Vaca meditando..."
+#~ msgid "Cow meditating..."
+#~ msgstr "Cow meditating..."
 
 #: apps/cowswap-frontend/src/modules/application/containers/App/menuConsts.tsx
 msgid "About CoW Swap"
@@ -5678,6 +5686,10 @@ msgstr "Cargando datos de puente <0/>"
 #: apps/cowswap-frontend/src/modules/twap/containers/TwapConfirmModal/TwapConfirmDetails.tsx
 msgid "Sell"
 msgstr "Vender"
+
+#: apps/cowswap-frontend/src/modules/ordersTable/pure/OrdersTableContainer/NoOrdersContent.tsx
+msgid "Use the <0/> to see {currentTabText}"
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/ethFlow/pure/EthFlowBanner/index.tsx
 msgid "Lower overall network costs"
