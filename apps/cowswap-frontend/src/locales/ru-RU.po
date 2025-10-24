@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: cowswap18n\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-22 16:30\n"
+"PO-Revision-Date: 2025-10-24 18:51\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -4357,7 +4357,7 @@ msgstr "Поиск хуков по заголовку или описанию"
 
 #: apps/cowswap-frontend/src/modules/account/containers/Transaction/ActivityDetails.tsx
 msgid "Safe Nonce: <0>{nonce}</0>"
-msgstr "Сейф Nonce: <0>{nonce}</0>"
+msgstr "Сейф Нен: <0>{nonce}</0>"
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/constants.ts
 msgid "You can protect all your Ethereum transactions from MEV - not just trades on CoW Swap - by installing MEV Blocker."
@@ -5752,7 +5752,7 @@ msgstr "Запросите средства на содержание инвес
 
 #: apps/cowswap-frontend/src/modules/bridge/pure/contents/QuoteBridgeContent/index.tsx
 msgid "Est. bridge time <0/>"
-msgstr "Est. время моста <0/>"
+msgstr "Эст. время моста <0/>"
 
 #: apps/cowswap-frontend/src/modules/ethFlow/pure/EthFlowModalContent/configs.ts
 msgid "Check that you are providing a sufficient gas limit for the transaction in your wallet."
