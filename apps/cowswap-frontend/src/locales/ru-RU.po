@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: cowswap18n\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-24 20:51\n"
+"PO-Revision-Date: 2025-10-24 21:01\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -388,7 +388,7 @@ msgstr "Купить COW"
 #: apps/cowswap-frontend/src/legacy/hooks/useWrapCallback.ts
 #: apps/cowswap-frontend/src/legacy/hooks/useWrapCallback.ts
 msgid "Reject"
-msgstr ""
+msgstr "Отклонить"
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/helpers.ts
 #: apps/cowswap-frontend/src/modules/orderProgressBar/pure/TransactionSubmittedContent/SurplusModal.tsx
@@ -1080,7 +1080,7 @@ msgstr "Позволяет устанавливать частичные одо�
 
 #: apps/cowswap-frontend/src/modules/tradeWidgetAddons/containers/SellNativeWarningBanner/index.tsx
 msgid "Switch to {wrappedNativeSymbol}"
-msgstr ""
+msgstr "Переключиться на {wrappedNativeSymbol}"
 
 #: apps/cowswap-frontend/src/modules/accountProxy/containers/AccountProxiesPage/index.tsx
 #~ msgid "Select an {ACCOUNT_PROXY_LABEL} to check for available refunds {chain}"
@@ -1292,7 +1292,7 @@ msgstr "этот заказ"
 
 #: apps/cowswap-frontend/src/modules/tradeWidgetAddons/containers/SellNativeWarningBanner/index.tsx
 msgid "or"
-msgstr ""
+msgstr "или"
 
 #: apps/cowswap-frontend/src/modules/twap/containers/TwapFormWarnings/warnings/SmallPartTimeWarning.tsx
 msgid "A minimum of <0>{time}</0> between parts is required. Decrease the number of parts or increase the total duration."
@@ -2961,7 +2961,7 @@ msgstr "отмена"
 
 #: apps/cowswap-frontend/src/legacy/hooks/useWrapCallback.ts
 msgid "Signing transaction"
-msgstr ""
+msgstr "Подписание транзакции"
 
 #: apps/cowswap-frontend/src/modules/hooksStore/containers/HookRegistryList/index.tsx
 #: apps/cowswap-frontend/src/modules/hooksStore/containers/HookSearchInput/index.tsx
@@ -3556,7 +3556,7 @@ msgstr "Разместите заказы для более чем доступ�
 
 #: apps/cowswap-frontend/src/modules/tradeWidgetAddons/containers/SellNativeWarningBanner/index.tsx
 msgid "first."
-msgstr ""
+msgstr "первый."
 
 #: apps/cowswap-frontend/src/modules/tradeFormValidation/pure/TradeFormButtons/tradeButtonsMap.tsx
 #: apps/cowswap-frontend/src/modules/tradeFormValidation/pure/TradeFormButtons/tradeButtonsMap.tsx
@@ -3829,7 +3829,7 @@ msgstr "Размещение между <0/> любой цепи, без про�
 
 #: apps/cowswap-frontend/src/modules/tradeWidgetAddons/containers/SellNativeWarningBanner/index.tsx
 msgid "Wrap {nativeSymbol} to {wrappedNativeSymbol}"
-msgstr ""
+msgstr "Перенос {nativeSymbol} в {wrappedNativeSymbol}"
 
 #: apps/cowswap-frontend/src/modules/bridge/pure/contents/QuoteSwapContent/index.tsx
 msgid "The address that will receive the tokens."
@@ -4893,7 +4893,7 @@ msgstr "Информация"
 
 #: apps/cowswap-frontend/src/modules/account/containers/AccountDetails/SurplusCard.tsx
 msgid "The total surplus CoW Swap has generated for you in {nativeSymbol} across all your trades since {startDate}"
-msgstr ""
+msgstr "Общий излишек CoW Swap для Вас сформировал в {nativeSymbol} по всем сделкам с {startDate}"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/containers/OrderRow/EstimatedExecutionPrice.tsx
 msgid "For this order, network costs would be"
