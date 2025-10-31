@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: intercambiovaca\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-31 18:12\n"
+"PO-Revision-Date: 2025-10-31 18:14\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -515,7 +515,7 @@ msgstr "1 mes"
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApprovalTooltip/index.tsx
 msgid "If you approve the full amount, you will only have to do this once per token."
-msgstr ""
+msgstr "Si aprueba la cantidad completa, sólo tendrá que hacerlo una vez por token."
 
 #: libs/hook-dapp-lib/src/hookDappsRegistry.ts
 msgid "Infinite permit an address to spend one token on your behalf."
@@ -988,7 +988,7 @@ msgstr "Hist. de órdenes"
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApprovalTooltip/index.tsx
 msgid "You must give the CoW Protocol smart contracts permission to use your <0/>."
-msgstr ""
+msgstr "Debe dar permiso a los contratos inteligentes del Protocolo CoW para usar su <0/>."
 
 #: apps/cowswap-frontend/src/modules/yield/containers/YieldWidget/elements.tsx
 msgid "any token into CoW AMM pools to start benefiting from attractive APRs."
