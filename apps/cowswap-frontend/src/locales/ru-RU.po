@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: intercambiovaca\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-31 18:12\n"
+"PO-Revision-Date: 2025-10-31 18:14\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -515,7 +515,7 @@ msgstr "1 месяц"
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApprovalTooltip/index.tsx
 msgid "If you approve the full amount, you will only have to do this once per token."
-msgstr ""
+msgstr "Если вы подтвердите полную сумму, то это нужно сделать только один раз за токен."
 
 #: libs/hook-dapp-lib/src/hookDappsRegistry.ts
 msgid "Infinite permit an address to spend one token on your behalf."
@@ -988,7 +988,7 @@ msgstr "История заказов"
 
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApprovalTooltip/index.tsx
 msgid "You must give the CoW Protocol smart contracts permission to use your <0/>."
-msgstr ""
+msgstr "Вы должны предоставить разрешение на использование вашего <0/>."
 
 #: apps/cowswap-frontend/src/modules/yield/containers/YieldWidget/elements.tsx
 msgid "any token into CoW AMM pools to start benefiting from attractive APRs."
