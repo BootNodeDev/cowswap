@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: intercambiovaca\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-31 18:11\n"
+"PO-Revision-Date: 2025-10-31 18:12\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -513,6 +513,10 @@ msgstr "(modificado)"
 msgid "1 Month"
 msgstr "1 mes"
 
+#: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApprovalTooltip/index.tsx
+msgid "If you approve the full amount, you will only have to do this once per token."
+msgstr ""
+
 #: libs/hook-dapp-lib/src/hookDappsRegistry.ts
 msgid "Infinite permit an address to spend one token on your behalf."
 msgstr "Permita infinito que una dirección gaste un token en su nombre."
@@ -981,6 +985,10 @@ msgstr "¡Algunas órdenes no pueden ser canceladas!"
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/OrdersTableContainer/index.cosmos.tsx
 msgid "Orders history"
 msgstr "Hist. de órdenes"
+
+#: apps/cowswap-frontend/src/modules/erc20Approve/pure/ApprovalTooltip/index.tsx
+msgid "You must give the CoW Protocol smart contracts permission to use your <0/>."
+msgstr ""
 
 #: apps/cowswap-frontend/src/modules/yield/containers/YieldWidget/elements.tsx
 msgid "any token into CoW AMM pools to start benefiting from attractive APRs."
@@ -3428,8 +3436,8 @@ msgstr "2 paradas"
 #: apps/cowswap-frontend/src/modules/erc20Approve/containers/TradeApproveButton/TradeApproveButton.tsx
 #: apps/cowswap-frontend/src/modules/erc20Approve/containers/TradeSignPermitButton/TradeSignPermitButton.tsx
 #: apps/cowswap-frontend/src/modules/erc20Approve/pure/LegacyApproveButton/index.tsx
-msgid "You must give the CoW Protocol smart contracts permission to use your <0/>. If you approve the default amount, you will only have to do this once per token."
-msgstr "Debe dar permiso a los contratos inteligentes del Protocolo CoW para usar su <0/>. Si aprueba la cantidad por defecto, sólo tendrá que hacer esto una vez por token."
+#~ msgid "You must give the CoW Protocol smart contracts permission to use your <0/>. If you approve the default amount, you will only have to do this once per token."
+#~ msgstr "You must give the CoW Protocol smart contracts permission to use your <0/>. If you approve the default amount, you will only have to do this once per token."
 
 #: apps/cowswap-frontend/src/modules/hooksStore/pure/AddCustomHookForm/constants.tsx
 msgid "Please enter the base URL of your dapp, not the direct manifest.json path"
