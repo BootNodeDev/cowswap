@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: intercambiovaca\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-11-04 13:58\n"
+"PO-Revision-Date: 2025-11-04 14:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -861,7 +861,7 @@ msgstr "1 día"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/OrderFillsAt/index.tsx
 msgid "Smart contract"
-msgstr ""
+msgstr "Contrato inteligente"
 
 #: apps/cowswap-frontend/src/legacy/components/Header/NetworkSelector/index.tsx
 msgid "Switch Network"
