@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: intercambiovaca\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-11-07 18:57\n"
+"PO-Revision-Date: 2025-11-07 18:59\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -343,7 +343,7 @@ msgstr "Orden SWAP"
 
 #: apps/cowswap-frontend/src/modules/twap/utils/deadlinePartsDisplay.ts
 msgid "y"
-msgstr ""
+msgstr "a"
 
 #: apps/cowswap-frontend/src/modules/twap/containers/TwapFormWidget/tooltips.tsx
 msgid "This is the current market price, including the fee."
@@ -555,7 +555,7 @@ msgstr "Sin chainId"
 
 #: apps/cowswap-frontend/src/modules/twap/utils/deadlinePartsDisplay.ts
 msgid "h"
-msgstr ""
+msgstr "h"
 
 #: apps/cowswap-frontend/src/common/utils/tradeSettingsTooltips.tsx
 msgid "When selling {aNativeCurrency}, the minimum slippage tolerance is set to {minimumETHFlowSlippage}% or higher to ensure a high likelihood of order matching, even in volatile market conditions."
@@ -841,7 +841,7 @@ msgstr "Seleccionar cuenta {walletName}"
 
 #: apps/cowswap-frontend/src/common/pure/UnsupportedNetworksText/index.tsx
 msgid "Please connect your wallet to one of our supported networks."
-msgstr ""
+msgstr "Por favor, conecte su billetera a una de nuestras redes compatibles."
 
 #: apps/cowswap-frontend/src/modules/tokensList/containers/TokenSearchResults/index.tsx
 msgid "<0>Read our guide</0> on how to add custom tokens."
@@ -1243,7 +1243,7 @@ msgstr "y obtuvo un extra "
 
 #: apps/cowswap-frontend/src/modules/twap/utils/deadlinePartsDisplay.ts
 msgid "s"
-msgstr ""
+msgstr "s"
 
 #: apps/cowswap-frontend/src/modules/account/containers/Transaction/StatusDetails.tsx
 #: apps/cowswap-frontend/src/modules/ethFlow/pure/EthFlowStepper/steps/Step2.tsx
@@ -1889,7 +1889,7 @@ msgstr "Bridging vía"
 
 #: apps/cowswap-frontend/src/modules/twap/utils/deadlinePartsDisplay.ts
 msgid "d"
-msgstr ""
+msgstr "d"
 
 #: apps/cowswap-frontend/src/modules/account/containers/Transaction/StatusDetails.tsx
 msgid "Creating..."
@@ -2815,7 +2815,7 @@ msgstr "Usted pagará un coste de gas separado por firmar el pedido colocado en 
 
 #: apps/cowswap-frontend/src/modules/orderProgressBar/constants.ts
 msgid "CoW Swap is live on {availableChainsText}. Switch the network toggle in the nav bar for quick, cheap transactions."
-msgstr ""
+msgstr "CoW Swap está disponible en vivo en {availableChainsText}. Cambia la opción de cambiar de red en la barra de navegación para realizar transacciones rápidas y baratas."
 
 #: apps/cowswap-frontend/src/modules/ethFlow/pure/EthFlowStepper/StatusIcon.tsx
 msgid "Status: {label}"
@@ -4403,7 +4403,7 @@ msgstr "al menos"
 
 #: apps/cowswap-frontend/src/modules/twap/utils/deadlinePartsDisplay.ts
 msgid "m"
-msgstr ""
+msgstr "m"
 
 #: apps/cowswap-frontend/src/modules/tokensList/containers/ManageListsAndTokens/index.tsx
 msgid "Lists"
@@ -5113,7 +5113,7 @@ msgstr "Permitir a CoW Swap usar tu <0/>"
 
 #: apps/cowswap-frontend/src/modules/twap/utils/deadlinePartsDisplay.ts
 msgid "mo"
-msgstr ""
+msgstr "mes"
 
 #: apps/cowswap-frontend/src/modules/ordersTable/pure/ReceiptModal/fields/SafeTxFields.tsx
 msgid "Safe logo"
